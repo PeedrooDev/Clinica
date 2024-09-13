@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background: #581736;
+    height: 100%;
+    max-width: 1600px;
+}
+
+.container{margin: 0; padding: 30px 2%;}
+
+.clear{ clear: both;}
+
+
+
+/**/
+section{
+    height: 600px;
+    background-color: aliceblue;
+    font-family: "Montaga", serif;
+}
+
+/*header*/
+section header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section  .logo{
+    cursor: pointer;
+    color: #C6327E;
+   font-size: 35px;
+   font-family: "Open Sans", sans-serif;
+}
+
+.nav-desktop{
+    font-size: 25px;
+    display: flex;
+}
+
+.nav-desktop ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-desktop ul > li{
+    margin: 6px;
+ }
+
+ .nav-desktop ul > li a {
+    text-decoration: none;
+    margin-left: 45px;
+    color: #F5DECE;
+ }
+
+ .nav-desktop ul > li a:hover{
+    color: #912458;
+ }
+
+ .nav-desktop ul > li a > span{
+    color: #C6327E;
+ }
+ /*fim header*/
+
+.text{
+    font-size: 35px;
+    font-family: "Montaga", serif;
+    padding: 50px 2%;
+    color: #F5DECE;
+}
+
+.form{
+    display: inline-block;
+    padding: 50px 2%;
+    width: 350px;
+    height: 200px;
+   
+}
+
+.form input[type="text"]{
+    width: 100%;
+}
+
+ /*FIM SECTION 01*/
