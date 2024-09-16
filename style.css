@@ -4,11 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/*reset*/
+*{ padding: 0;  margin: 0; box-sizing: border-box; }
 
 html,body{
     background: #581736;
@@ -16,17 +13,17 @@ html,body{
     max-width: 1600px;
 }
 
+
 .container{margin: 0; padding: 30px 2%;}
-
 .clear{ clear: both;}
-
-
-
 /**/
+
+/*inicio section 01*/
 section{
     height: 750px;
     font-family: "Montaga", serif;
 }
+
 
 /*header*/
 section header{
@@ -34,6 +31,7 @@ section header{
     justify-content: space-between;
     align-items: center;
 }
+
 section  .logo{
     cursor: pointer;
     color: #C6327E;
@@ -52,9 +50,7 @@ section  .logo{
     list-style-type: none;
 }
 
-.nav-desktop ul > li{
-    margin: 6px;
- }
+.nav-desktop ul > li{ margin: 6px;}
 
  .nav-desktop ul > li a {
     text-decoration: none;
@@ -62,21 +58,17 @@ section  .logo{
     color: #F5DECE;
  }
 
- .nav-desktop ul > li a:hover{
-    color: #912458;
- }
+ .nav-desktop ul > li a:hover{color: #912458;}
 
- .nav-desktop ul > li a > span{
-    color: #C6327E;
- }
- /*fim header*/
+ .nav-desktop ul > li a > span{color: #C6327E;}
+ 
+/*fim header*/
 
 .text{
     font-size: 35px;
     font-family: "Montaga", serif;
     padding: 80px 2%;
     color: #F5DECE;
-   
 }
 
 .form{
@@ -112,13 +104,12 @@ section  .logo{
     background: #C6327E;
     color: antiquewhite;
     font-size: 23px;
- font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
  /*FIM SECTION 01*/
 
 .section02{
     height: 750px;
-  
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
