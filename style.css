@@ -121,7 +121,7 @@ section  .logo{
     max-width: 450px;
     width: 100%;
     height: 350px;
-    background: rgb(255, 255, 255);
+    background: #fcf5e5;
     border-radius: 20px;
     margin-left: 150px;
     margin-top: 23px;
@@ -257,9 +257,11 @@ section  .logo{
     height: 1600px;
     background: #F5DECE;
     max-width: 1345px;
+    border-radius: 20px;
 }
 
 .sobre .container_sobre{
+    border-radius: 20px;
     padding: 30px 2%;
   margin: 60px;
     width: 90%;
@@ -268,6 +270,7 @@ section  .logo{
 }
 
 .ela{
+    border-radius: 20px;
     background: #fcf5e5;
     width: 40%;
     height: 400px;
@@ -397,6 +400,49 @@ section  .logo{
     margin-left: auto;
     margin-top: 16px;
 }
+/**/
+
+
+
+.sobre{
+    height: 2100px;
+    max-width: 1920px;
+    background: #F5DECE;
+}
+
+.sobre .container_sobre{
+    padding: 10px 2%;
+     margin: auto;
+    width: 100%;
+    height: 2000px;
+    background: #581736;
+}
+
+.ela{
+    background: #fcf5e5;
+    width: 100%;
+    height: 400px;
+    display: inline-flex;
+    margin:auto;
+}
+
+.container_sobre .text_sobre{
+    padding-left: 5%;
+    width: 100%;
+
+}
+
+.sobre .container_sobre h1{
+    font-size: 60px;
+    color: #FF5290;
+}
+
+
+
+/*SOBRE ELLA*/
+
+
+
 
 /**/
 
@@ -408,12 +454,6 @@ padding-left: 2%;
 margin-top: 23px;
 
 }
-
-
-.box_right_one:hover{
-    transform: translateY(-20px);
-
-}
 .box_right{
     position: relative;
     left: 30%;
@@ -422,6 +462,35 @@ margin-top: 23px;
     margin-top: 10px;
     margin-right: 10px;
 }
+
+
+/**/
+.container_fqa1{
+    padding: 20px 2%;
+   margin-bottom: 23px;
+}
+
+.container_fqa1{
+    padding-left: 2%;
+    margin-left: auto;
+    width: 100%;
+}
+
+.fqa p{
+    margin-left: auto;
+    padding-left: 2%;
+    
+}
+
+
+.container_fqa1 i{
+    padding-top: 0px;
+    padding-right: 3%;
+    color:wheat;
+    float: right;
+}
+
+
 
 
 }
