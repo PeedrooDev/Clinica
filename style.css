@@ -14,6 +14,11 @@ html,body{background: #581736; height: 100%; max-width: 1600px;}
 
 .clear{ clear: both;}
 
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 /*reset*/
 
 /*inicio section 01*/
@@ -346,11 +351,9 @@ section  .logo{
 @media screen and (max-width: 650px) {
 
     section{
-        height: 800px;
+        height: 550px;
         font-family: "Montaga", serif;
     }
-
-    
 
 .nav-desktop{
     display: none;
@@ -391,15 +394,47 @@ section  .logo{
 /**/
 
  .section02{
+    padding-left: 5%;
     height:1600px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .section02 .profissionais_container{
+    max-width: 550px;
+    width: 100%;
     height: 350px;
     margin-left: auto;
-    margin-top: 16px;
+    margin-top: 23px;
+    padding-left: 5%;
 }
+
+
+/**/
+
+
+/**/
+
+.nossos_servicos{
+    height: 1000px;
+}
+.tema_left{
+padding-left: 2%;
+margin-top: 53px;
+
+}
+.box_right{
+    position: relative;
+    top: -3px;
+    left: 30%;
+    padding: 0px 0%;
+    margin-right: 10px;
+}
+
+
+.box_span{
+    display: none;
+}
+
 /**/
 
 
@@ -444,24 +479,6 @@ section  .logo{
 
 
 
-/**/
-
-.nossos_servicos{
-    height: 1000px;
-}
-.tema_left{
-padding-left: 2%;
-margin-top: 23px;
-
-}
-.box_right{
-    position: relative;
-    left: 30%;
-    top: -10px;
-    padding: 0px 2%;
-    margin-top: 10px;
-    margin-right: 10px;
-}
 
 
 /**/
@@ -489,8 +506,338 @@ margin-top: 23px;
     color:wheat;
     float: right;
 }
+}
 
 
+@media screen and (max-width: 790px) {
 
+    section{
+        height: 550px;
+        font-family: "Montaga", serif;
+    }
+
+.nav-desktop{
+    display: none;
+}
+.nav-mobile{
+    display: none;/*arrumar depois*/
+}
+
+.logo{
+    padding: 10px 6%;
+}
+.text{
+    font-size: 35px;
+    font-family: "Montaga", serif;
+    padding: 60px 5%;
+    color: #F5DECE;
+}
+
+.form{
+    display: inline-block;
+    padding-left: 20px;
+    width: 300px;
+    height: 150px;
+    line-height: 3.6;
+}
+
+.form input[type="text"]{
+    padding: 10px 5%;
+}
+
+.form input[type="button"] {
+    width: 100%;
+    height: 45px;
+    padding: 6px 6%;
+    font-size: 16px;
+}
+
+/**/
+
+ .section02{
+    padding-left: 2%;
+    height:900px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section02 .profissionais_container{
+    max-width: 350px;
+    width: 100%;
+    height: 360px;
+    margin-left: auto;
+    margin-top: 23px;
+    padding-left: 2%;
+}
+
+
+/**/
+
+
+/**/
+
+.nossos_servicos{
+    height: 1000px;
+}
+.tema_left{
+padding-left: 2%;
+margin-top: 53px;
 
 }
+.box_right{
+    position: relative;
+    top: -3px;
+    left: 30%;
+    padding: 0px 0%;
+    margin-right: 10px;
+}
+
+
+
+
+/**/
+
+
+
+.sobre{
+    height: 2100px;
+    max-width: 1920px;
+    background: #F5DECE;
+}
+
+.sobre .container_sobre{
+    padding: 10px 2%;
+     margin: auto;
+    width: 100%;
+    height: 2000px;
+    background: #581736;
+}
+
+.ela{
+    background: #fcf5e5;
+    width: 100%;
+    height: 400px;
+    display: inline-flex;
+    margin:auto;
+}
+
+.container_sobre .text_sobre{
+    padding-left: 5%;
+    width: 100%;
+
+}
+
+.sobre .container_sobre h1{
+    font-size: 60px;
+    color: #FF5290;
+}
+
+
+
+/*SOBRE ELLA*/
+
+
+
+
+
+
+/**/
+.container_fqa1{
+    padding: 20px 2%;
+   margin-bottom: 23px;
+}
+
+.container_fqa1{
+    padding-left: 2%;
+    margin-left: auto;
+    width: 100%;
+}
+
+.fqa p{
+    margin-left: auto;
+    padding-left: 2%;
+    
+}
+
+
+.container_fqa1 i{
+    padding-top: 0px;
+    padding-right: 3%;
+    color:wheat;
+    float: right;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    section{
+        height: 550px;
+        font-family: "Montaga", serif;
+    }
+
+
+.nav-mobile{
+    display: none;/*arrumar depois*/
+}
+
+.logo{
+    padding: 10px 6%;
+}
+.text{
+    font-size: 35px;
+    font-family: "Montaga", serif;
+    padding: 60px 5%;
+    color: #F5DECE;
+}
+
+.form{
+    display: inline-block;
+    padding-left: 5%;
+    width: 400px;
+    height: 150px;
+    line-height: 3.6;
+}
+
+.form input[type="text"]{
+    padding: 10px 5%;
+}
+
+.form input[type="button"] {
+    width: 100%;
+    height: 45px;
+    padding: 6px 6%;
+    font-size: 16px;
+}
+
+/**/
+
+ .section02{
+    padding-left: 2%;
+    height:700px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.section02 .profissionais_container{
+    max-width: 350px;
+    width: 100%;
+    height: 360px;
+    margin-left: auto;
+    margin-top: 23px;
+    padding-left: 2%;
+}
+
+
+/**/
+
+
+/**/
+
+.nossos_servicos{
+    height: 900px;
+}
+.tema_left{
+padding-left: 2%;
+margin-top: 3px;
+
+}
+.box_right{
+    position: relative;
+    top: -3px;
+    left: 30%;
+    padding: 0px 0%;
+    margin-right: 10px;
+}
+
+.container_span{
+    display: none;
+}
+
+
+.box_span{
+    position: relative;
+    top: -2px;
+    left: 19%;
+    margin-left: 10px;
+}
+/**/
+
+
+
+.sobre{
+    height: 1600px;
+    max-width: 1920px;
+    background: #F5DECE;
+}
+
+.sobre .container_sobre{
+    padding: 10px 2%;
+     margin: auto;
+    width: 100%;
+    height: 1500px;
+    background: #581736;
+}
+
+.ela{
+    background: #fcf5e5;
+    width: 100%;
+    height: 400px;
+    display: inline-flex;
+    margin:auto;
+}
+
+.container_sobre .text_sobre{
+    padding-left: 2%;
+    width: 100%;
+
+}
+
+.sobre .container_sobre h1{
+    font-size: 60px;
+    color: #FF5290;
+}
+
+
+
+/*SOBRE ELLA*/
+
+
+
+
+
+
+/**/
+.container_fqa1{
+    padding: 20px 2%;
+   margin-bottom: 23px;
+}
+
+.container_fqa1{
+    padding-left: 2%;
+    margin-left: auto;
+    width: 100%;
+}
+
+.fqa p{
+    margin-left: 2px;
+    padding-left: 2%;
+    
+}
+
+
+.container_fqa1 i{
+    padding-top: 0px;
+    padding-right: 3%;
+    color:wheat;
+    float: right;
+}
+}
+
+
