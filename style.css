@@ -122,7 +122,7 @@ section  .logo{
 }
 
 .section02 .profissionais_container{
-    display: inline-flex;
+    display: inline-block;
     max-width: 450px;
     width: 100%;
     height: 350px;
@@ -164,6 +164,11 @@ section  .logo{
     border-radius: 10px;
 }
 
+
+.container_span{
+    display: inline-block;
+
+}
 /**/
 .tema_left{
     float: left;
@@ -351,7 +356,8 @@ section  .logo{
 @media screen and (max-width: 650px) {
 
     section{
-        height: 550px;
+        background: black;
+        height: 1850px;
         font-family: "Montaga", serif;
     }
 
@@ -400,6 +406,7 @@ section  .logo{
 }
 
 .section02 .profissionais_container{
+    background: rgb(255, 0, 0);
     max-width: 550px;
     width: 100%;
     height: 350px;
@@ -415,9 +422,11 @@ section  .logo{
 /**/
 
 .nossos_servicos{
+
     height: 1000px;
 }
 .tema_left{
+    background: rgb(0, 255, 106);
 padding-left: 2%;
 margin-top: 53px;
 
@@ -509,8 +518,10 @@ margin-top: 53px;
 }
 
 
-@media screen and (max-width: 790px) {
-
+@media screen and (max-width: 800px) {
+body{
+    background: aqua;
+}
     section{
         height: 550px;
         font-family: "Montaga", serif;
@@ -555,6 +566,7 @@ margin-top: 53px;
 /**/
 
  .section02{
+    background: aqua;
     padding-left: 2%;
     height:900px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -568,7 +580,9 @@ margin-top: 53px;
     margin-top: 23px;
     padding-left: 2%;
 }
-
+.container_span{
+    display: none;
+}
 
 /**/
 
@@ -577,6 +591,7 @@ margin-top: 53px;
 
 .nossos_servicos{
     height: 1000px;
+    background: purple;
 }
 .tema_left{
 padding-left: 2%;
@@ -594,14 +609,11 @@ margin-top: 53px;
 
 
 
-/**/
 
-
-
-.sobre{
-    height: 2100px;
-    max-width: 1920px;
-    background: #F5DECE;
+.sobre{   
+    height: 0000px;
+    max-width:0px;
+ 
 }
 
 .sobre .container_sobre{
@@ -609,11 +621,11 @@ margin-top: 53px;
      margin: auto;
     width: 100%;
     height: 2000px;
-    background: #581736;
+   
 }
 
 .ela{
-    background: #fcf5e5;
+
     width: 100%;
     height: 400px;
     display: inline-flex;
@@ -630,14 +642,6 @@ margin-top: 53px;
     font-size: 60px;
     color: #FF5290;
 }
-
-
-
-/*SOBRE ELLA*/
-
-
-
-
 
 
 /**/
@@ -676,7 +680,7 @@ margin-top: 53px;
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1260px) {
 
     section{
         height: 550px;
